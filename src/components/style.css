@@ -1,0 +1,48 @@
+.container{
+    display: flex;
+    margin:10px;
+}
+.sign-in{
+    background-image: linear-gradient(to bottom, rgb(86, 141, 207), rgb(188, 205, 218));
+    color: white;
+    width: 50%;
+    height: 585px;
+    border-radius: 10px 0 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.sign-up{
+    width: 50%;
+    height: 585px;
+    border-radius: 0 10px 10px 0;
+    background-color: rgb(217, 221, 226);
+    display: flex;
+    justify-content: center;
+}
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    width: 150px;
+    padding: 15px;  
+    border-radius: 50px;
+    margin-top: 30px;
+    color: gray;
+}
+input{
+    padding: 20px;
+    width: 80%;
+    font-size: 15px;
+    margin-bottom: 20px;
+    border-top: 5px solid rgb(209, 206, 206);
+    border-left: 5px solid rgb(209, 206, 206);
+    border-right: transparent;
+    border-bottom: transparent;
+    border-radius: 5px;
+}
